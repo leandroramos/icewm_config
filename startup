@@ -1,0 +1,8 @@
+#!/bin/bash
+
+[ -x ~/.icewm/restart ] && source ~/.icewm/restart
+
+nitrogen --restore &
+xfce4-clipman &
+volumeicon &
+nm-applet &
